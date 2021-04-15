@@ -4,7 +4,13 @@
 
 Copy `.env.example` to a new file `.env` and fill with appropriate Discord values.
 
-Build the image:
+Pull the image:
+
+```
+docker pull ryilliams/mombot-api
+```
+
+Or if you'd rather build it yourself:
 
 ```
 docker build -t mombot-api .
