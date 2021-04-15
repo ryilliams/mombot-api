@@ -23,9 +23,9 @@ def get_temp_statement(temp):
     elif (temp < 32):
         return "is quite cold. Make sure you wear long sleeves and pants honey! And don't forget a warm coat."
     elif (temp < 50):
-        return "is a little chilly. I suggest a long sleeve shirt, and a pair of pants. You may be able to go without a jacket, but please stay warm dear."
+        return "is a little chilly. I suggest a long sleeved shirt, and a pair of pants. You may be able to go without a jacket, but please stay warm dear."
     elif (temp < 72):
-        return "is very pleasant. I would suggest a long sleeve shirt and some shorts sweetheart, but if you feel you'll get too hot, just switch to a t-shit!"
+        return "is very pleasant. I would suggest a long sleeve shirt and some shorts sweetheart, but if you feel you'll get too hot, just switch to a t-shirt!"
     elif (temp < 90):
         return "is getting a little hot. If you wear a short sleeved shirt and shorts you should be right as rain!"
     else:
