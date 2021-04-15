@@ -15,3 +15,12 @@ Run the container:
 ```bash
 docker run -d -p 80:80 --env-file ./.env mombot-api
 ```
+
+Send a request:
+```bash
+curl http://localhost/weather/30/sunny
+```
+
+Endpoint format: `http://localhost/weather/:temperature/:condition`
+
+`temperature` must be an int, conditions include: sunny, snowy, windy, and rainy.
